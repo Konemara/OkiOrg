@@ -12,7 +12,9 @@ int Sumacyfr (long long liczba){
 }
 
 int main() {
-	cout << SumaCyfr(153) << endl;
-	
+	long long cena = 153;
+	cout << SumaCyfr(cena) << endl;
+	long long cena = 2137;
+	cout << SumaCyfr(cena) << endl;
 	return 0;
 }
